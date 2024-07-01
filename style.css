@@ -1,0 +1,202 @@
+body {
+    background-color: #df8eb4 ;
+    color: #efc0fc; /* Purple text */
+}
+
+.rectangle {
+    width: 1100px;
+    height: 600px; 
+    background-color:#ffe0ee ;
+    top: 80px;
+    left: 110px; 
+    border: 1.5px solid #c20f6f;
+    border-radius: 5px;
+    box-shadow: 30px 30px 15px;
+    color:#d45a8f;
+    position: absolute;
+    z-index: 0;
+}
+.rectangle-2 {
+    width: 1080px;
+    height: 40px; 
+    background-color: #e472ad;
+    top: 87px;
+    left: 118px; 
+    border: 3px dashed #e93793;
+    border-radius: 3px;
+    position: absolute;
+    z-index: 1;
+}
+.square {
+    width: 28px;
+    height:28px;
+    top: 95px;
+    left: 1162px; 
+    font-size: 20px;
+    text-align:center;
+    line-height:30px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #d9f9ff;
+    color:#49d5d5;
+    border:2px solid #4fd0df;
+    border-radius: 3px;
+    position: absolute;
+    z-index: 2;
+}
+
+h1 {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: #f68ac0;
+    top:140px;
+    left:235px;
+    position: absolute;
+    -webkit-text-stroke: 1.5px #c82a7e;
+    z-index: 3;
+}
+h2 {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: #da1e7c;
+    top:85px;
+    left:140px;
+    position: absolute;
+    z-index: 4;
+}
+#user-input{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    width:600px;
+    height:60px;
+    padding:5px;
+    color:#d775a9;
+    background-color: #fff0f5 ;
+    border:3px dotted #e14b9b;
+    border-radius: 5px;
+    box-shadow: 10px 10px 6px;
+    left:350px;
+    top:350px;
+    position:absolute;
+    z-index: 5;
+}
+#play-button{
+    width:200px;
+    height:80px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(to bottom, #baf1ff, #bee0e2);    color:#34ebeb;
+    border:1.5px solid #2ea6a6;
+    border-radius: 7px;
+    -webkit-text-stroke:1px #11c9de;
+    box-shadow: 9px 9px 12px;
+    left:550px;
+    top:500px;
+    position:absolute;
+    z-index: 6;
+}
+#reset-button{
+    width:86px;
+    height:28px;
+    font-size: 20px;
+    background-color: #d9f9ff;
+    font-family: 'Times New Roman', Times, serif;
+    color:#43dfdf;
+    border:2px solid #55cbd8;
+    border-radius: 3px;
+    left:1060px;
+    top:95px;
+    position:absolute;
+    z-index: 7;
+}
+#result-area {
+    font-size:30px;
+    color:#e3a5f5;
+    -webkit-text-stroke: 1px #de88f8;
+    top: 290px;
+    left: 355px; 
+    position: absolute;
+    z-index: 9;
+}
+#correct-area {
+    font-size:30px;
+    color:#e3a5f5;
+    -webkit-text-stroke: 1px #de88f8;
+    top: 250px;
+    left: 605px; 
+    position: absolute;
+    z-index: 10;
+}
+#chance-area {
+    font-size:20px;
+    color:#f440a9;
+    -webkit-text-stroke: 1px #e4a6f7;
+    top: 450px;
+    left: 352px; 
+    position: absolute;
+    z-index: 11;
+}
+#answer-area {
+    font-size:30px;
+    color:#00f7ff;
+    -webkit-text-stroke: 1px #27c5e1;
+    top: 290px;
+    left: 532px; 
+    position: absolute;
+    z-index: 12;
+}
+#gameover-area {
+    font-size:80px;
+    color:#00f7ff;
+    -webkit-text-stroke: 1px #27c5e1;
+    top: 580px;
+    left: 980px; 
+    position: absolute;
+    z-index: 15;
+}
+.rectangle-3 {
+    width: 550px;
+    height: 320px; 
+    background-color:#c9c9c9 ;
+    top: 480px;
+    left: 930px; 
+    border: 2px solid #7c7c7c;
+    box-shadow: 30px 30px 15px;
+    color:rgb(212, 90, 143);
+    position: absolute;
+    z-index: 8;
+}
+.rectangle-4 {
+    width: 550px;
+    height: 40px; 
+    background-color:hsl(246, 100%, 50%) ;
+    top: 481.5px;
+    left: 931.5px; 
+    border:2px solid #656565;
+    position: absolute;
+    z-index: 13;
+}
+.square-2 {
+    width: 28px;
+    height:28px;
+    top: 488px;
+    left: 1447px; 
+    font-size: 20px;
+    text-align:center;
+    line-height:30px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #c7c7c7;
+    color:rgb(163, 163, 163);
+    border:2px solid #6c6c6c;
+    position: absolute;
+    z-index: 14;
+}
+#play-button:hover{
+    background: linear-gradient(to bottom, #b3fff9, #67e1e8);
+    color:#94ddee;
+}
+
+#reset-button:hover{
+    background: linear-gradient(to bottom, #b3fff9, #67e1e8);
+    color:#94ddee;
+}
